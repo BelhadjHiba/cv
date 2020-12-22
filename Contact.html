@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" content="text/html" lang="fr">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<h1>Hiba Belhadj</h1>
+	<h2>Etudiante LFSI</h2>
+	<ul>
+		<li><a href="CV.html">Presentation</a></li>
+		<li><a href="Formation.html">Formation</a></li>
+		<li><a href="Experience.html">Experience</a></li>
+		<li><a href="Competence.html">Competence</a></li>
+		<li><a href="Divers.html">Divers</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+	<hr>
+	<h1>Contact</h1>
+	<form action=" mailto:bel7adjhiba@gmail.com" enctype="text/plain" method="post" class="">
+		<table cellspacing="10">
+			<tr>
+				<td>
+					<label for="NomEtPrenom">Nom et Prenom</label>
+				</td>
+				<td>
+					<input id="NomEtPrenom" type="text" placeholder="Entrer votre nom et prenom" name="NomEtPrenom" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="E-mail">E-mail</label>
+				</td>
+				<td>
+					<input id="E-mail" type="mail" placeholder="Entrer votre mail" name="E-mail" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Telephone">Telephone</label>
+				</td>				<td>
+					<input type="tel" id="phone" name="phone"
+       				pattern="[0-9]{2} [0-9]{3} [0-9]{3}"
+       				placeholder="Entrer votre numero de Telephone" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="sujet">Sujet</label>
+				</td>
+				<td>
+					<input id="sujet" type="text" placeholder="Entrer votre message" name="sujet" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="message">Message</label>
+				</td>
+				<td>
+					<textarea id="message" name="message" cols = "20" rows = "7" placeholder="Entrer votre mail ici" required></textarea> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="" value="Envoyer Message">
+				</td>
+				<td>
+					<input type="reset" name="" value="Vider">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
